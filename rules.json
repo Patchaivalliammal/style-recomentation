@@ -1,0 +1,137 @@
+{
+  "occasions": ["Interview", "College", "Wedding", "Festival", "Party"],
+  "styles": ["Western", "Ethnic", "Fusion"],
+  "body_types": ["Petite", "Tall", "Slim", "Curvy", "Pear", "Apple", "Athletic", "Plus-size"],
+  "skin_tone_palettes": {
+    "Fair": [
+      {"name": "Soft Pink", "hex": "#F4C2C2"},
+      {"name": "Lavender", "hex": "#C8A2C8"}
+    ],
+    "Medium": [
+      {"name": "Emerald", "hex": "#167E56"},
+      {"name": "Cobalt", "hex": "#0047AB"}
+    ],
+    "Deep": [
+      {"name": "Burgundy", "hex": "#800020"},
+      {"name": "Royal Blue", "hex": "#4169E1"}
+    ]
+  },
+  "occasion_accents": {
+    "Interview": [
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Navy", "hex": "#1F3A93"}
+    ],
+    "College": [
+      {"name": "Denim", "hex": "#2F4F90"},
+      {"name": "Olive", "hex": "#556B2F"}
+    ],
+    "Wedding": [
+      {"name": "Gold", "hex": "#D4AF37"},
+      {"name": "Maroon", "hex": "#800000"}
+    ],
+    "Party": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Silver", "hex": "#C0C0C0"}
+    ],
+    "Festival": [
+      {"name": "Saffron", "hex": "#FF9933"},
+      {"name": "Bottle Green", "hex": "#006A4E"}
+    ]
+  },
+  "outfits": [
+    {
+      "name": "Formal Interview Look - Female",
+      "style": "Western",
+      "gender": "Female",
+      "occasions": ["Interview"],
+      "pieces": ["Shirt", "Blazer", "Trousers"],
+      "footwear": ["Black Shoes"],
+      "accessories": ["Watch", "Belt"],
+      "makeup_grooming": ["Minimal Makeup"],
+      "fit_tips": ["Ensure blazer fits shoulders"],
+      "body_notes": {"Slim": "Avoid oversized jackets"},
+      "tags": ["Formal"]
+    },
+    {
+      "name": "Formal Interview Look - Male",
+      "style": "Western",
+      "gender": "Male",
+      "occasions": ["Interview"],
+      "pieces": ["Shirt", "Blazer", "Trousers"],
+      "footwear": ["Black Shoes"],
+      "accessories": ["Watch", "Tie"],
+      "makeup_grooming": [],
+      "fit_tips": ["Ensure blazer fits shoulders"],
+      "body_notes": {"Slim": "Avoid oversized jackets"},
+      "tags": ["Formal"]
+    },
+    {
+      "name": "Casual College Unisex",
+      "style": "Fusion",
+      "gender": "Unisex",
+      "occasions": ["College"],
+      "pieces": ["Hoodie", "Jeans"],
+      "footwear": ["Sneakers"],
+      "accessories": ["Backpack", "Cap"],
+      "makeup_grooming": [],
+      "fit_tips": ["Comfortable fit preferred"],
+      "body_notes": {},
+      "tags": ["Casual"]
+    },
+    {
+      "name": "Wedding Guest Look - Male",
+      "style": "Ethnic",
+      "gender": "Male",
+      "occasions": ["Wedding"],
+      "pieces": ["Kurta", "Churidar", "Jacket"],
+      "footwear": ["Mojaris"],
+      "accessories": ["Watch", "Pocket Square"],
+      "makeup_grooming": [],
+      "fit_tips": ["Tailor the kurta for shoulders"],
+      "body_notes": {"Tall": "Avoid loose churidars"},
+      "tags": ["Wedding"]
+    },
+    {
+      "name": "Fusion Party Look - Unisex",
+      "style": "Fusion",
+      "gender": "Unisex",
+      "occasions": ["Party"],
+      "pieces": ["Jacket", "Trousers or Skirt", "T-Shirt"],
+      "footwear": ["Sneakers or Heels"],
+      "accessories": ["Minimal Jewelry", "Watch", "Bag"],
+      "makeup_grooming": ["Optional Bold Makeup for Female"],
+      "fit_tips": ["Mix ethnic and western pieces creatively"],
+      "body_notes": {},
+      "tags": ["Party"]
+    },
+    {
+      "name": "Festival Ethnic Look - Male",
+      "style": "Ethnic",
+      "gender": "Male",
+      "occasions": ["Festival"],
+      "pieces": ["Kurta", "Pajama"],
+      "footwear": ["Mojaris"],
+      "accessories": ["Bracelets", "Watch"],
+      "makeup_grooming": [],
+      "fit_tips": ["Comfortable flowing fabrics"],
+      "body_notes": {},
+      "tags": ["Festival"]
+    },
+    {
+      "name": "Festival Ethnic Look - Female",
+      "style": "Ethnic",
+      "gender": "Female",
+      "occasions": ["Festival"],
+      "pieces": ["Anarkali Suit", "Dupatta"],
+      "footwear": ["Juttis or Sandals"],
+      "accessories": ["Bangles", "Earrings", "Bindis"],
+      "makeup_grooming": ["Light Foundation", "Colorful Eyeshadow", "Lipstick"],
+      "fit_tips": ["Flowing fabrics for comfort"],
+      "body_notes": {
+        "Slim": "A-line Anarkali suits are flattering",
+        "Curvy": "Empire waist Anarkali enhances shape"
+      },
+      "tags": ["Festival"]
+    }
+  ]
+}
